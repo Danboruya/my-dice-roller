@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        toast("Dice Rolled!")
+        // toast("Dice Rolled!")
         diceImage0.setImageResource(getRandomDiceImage())
         diceImage1.setImageResource(getRandomDiceImage())
     }
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun reset() {
-        toast("Clear")
+        // toast("Clear")
         diceImage0.setImageResource(R.drawable.empty_dice)
         diceImage1.setImageResource(R.drawable.empty_dice)
     }
